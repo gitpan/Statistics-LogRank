@@ -1,5 +1,8 @@
 Revision history for Perl extension Statistics::LogRank.
 
+0.03  Wed May 21 2003
+	Fixed failing tests (due to fixing namespace)
+
 0.02  Tue May 20 2003
 	Fixed module namespace.
 

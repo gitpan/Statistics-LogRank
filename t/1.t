@@ -15,7 +15,7 @@ BEGIN { use_ok('Statistics::LogRank') };
 @group_2_survival = (100,97,93,90,88,82);
 @group_2_deaths   = (  0, 2, 4, 1, 2, 6);
 
-ok (my $log_rank = new LogRank, 'created a log rank object');
+ok (my $log_rank = new Statistics::LogRank, 'created a log rank object');
 ok ($log_rank->load_data('group 1 survs',@group_1_survival), 'loaded data');
 $log_rank->load_data('group 1 deaths',@group_1_deaths);
 $log_rank->load_data('group 2 survs',@group_2_survival);
